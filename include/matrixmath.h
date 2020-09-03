@@ -11,9 +11,10 @@ typedef struct Matrix {
 }*matrix;
 
 matrix matcreate(int m, int n);
-matrix matassign(matrix X, int v);
+matrix valassign(matrix X, int v);
 int multiply(matrix P, matrix A, matrix B);
 void showmat(matrix X);
-
+float sum(matrix X);
+matrix slice(matrix X, int r1, int r2, int c1, int c2);
 
 #endif //LAB2_MATRIXMATH_H

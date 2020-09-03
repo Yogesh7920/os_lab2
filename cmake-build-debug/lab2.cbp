@@ -74,31 +74,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/helper.c">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/include/helper.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/helper.h">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/include/image.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/image.c">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/include/matrixmath.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/image.h">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/include/ppm.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/main.c">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/src/helper.c">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/matrixmath.c">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/src/image.c">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/matrixmath.h">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/src/main.c">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/ppm.c">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/src/matrixmath.c">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/raghu/CLionProjects/lab2/ppm.h">
+		<Unit filename="C:/Users/raghu/CLionProjects/lab2/src/ppm.c">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/Users/raghu/CLionProjects/lab2/CMakeLists.txt">

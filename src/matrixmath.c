@@ -1,6 +1,7 @@
 # include<stdio.h>
 # include<stdlib.h>
 # include"../include/matrixmath.h"
+# include "../include/helper.h"
 
 matrix matcreate(int m, int n) {
     matrix temp = (matrix)malloc(sizeof(struct Matrix));
@@ -15,10 +16,10 @@ matrix matcreate(int m, int n) {
     return temp;
 }
 
-matrix matassign(matrix X, int v) {
+matrix valassign(matrix X, int v) {
     for (int i=0;i<X->m;i++) {
         for (int j=0; j<X->n; j++) {
-            X->M[i][j] = v;
+            X->M[i][j] = (float)v;
         }
     }
     return X;
@@ -26,10 +27,16 @@ matrix matassign(matrix X, int v) {
 
 int multiply(matrix P, matrix A, matrix B) {
 
-    if (A->m != B->n) {
+    if (A->m != B->m && A->n != B->n) {
         printf("Cannot Multiply");
         return 1;
     }
+    for (int i=0; i< A->m; i++) {
+        for (int j=0; j < B->n; j++) {
+            P->M[i][j] =  A->M[i][j] * B->M[i][j];
+        }
+    }
+
     // for (int i=0; i< A->m; i++) {
     //     for (int j=0; j < B->n; j++) {
     //         for (int k=0; k<A->n; k++) {
@@ -37,9 +44,33 @@ int multiply(matrix P, matrix A, matrix B) {
     //         }
     //     }
     // }
-    P->M[0][0] = A->M[0][0] + B->M[0][0];
 
     return 0;
+}
+
+float sum(matrix X) {
+    float sum = 0;
+    for (int i=0; i<X->m; i++) {
+        for (int j=0;j<X->n; j++) {
+            sum += X->M[i][j];
+        }
+    }
+    return sum;
+}
+
+matrix slice(matrix X, int r1, int r2, int c1, int c2) {
+    matrix res = matcreate(r2-r1, c2-c1);
+    int a=0;
+    int b;
+    for (int i=r1; i<r2; i++) {
+        b = 0;
+        for (int j=c1; j<c2; j++) {
+            res->M[a][b] = X->M[i][j];
+            b++;
+        }
+        a++;
+    }
+    return res;
 }
 
 void showmat(matrix X) {

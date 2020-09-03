@@ -71,25 +71,27 @@ matrix bgr2grey(image img) {
     }
 }
 
-matrix maxpool(matrix X) {
-    matrix res = matcreate(X->m-2, X->n-2);
-    int p=0;
-    int q;
-    float temp;
-    for (int i=1; i<X->n-1; i++) {
-        q=0;
-        for (int j=1; j<X->m-1; j++) {
-            temp = -1;
-            for (int a=-1; a<2; a++) {
-                for (int b=0; b<3; b++) {
-                    temp = max(temp, X->M[i+a][j+b]);
-                }
-            }
-            res->M[p][q] = temp;
-            q++;
+void blur(matrix X) {
+    matrix kernel = matcreate(3, 3);
+    float arr[3][3] = {
+            {1,2,1},
+            {2,4,2},
+            {1,2,1}
+    };
+    for (int i=0; i<3; i++) {
+        for (int j=0; j<3; j++) {
+            kernel->M[i][j] = arr[i][j];
         }
-        p++;
+    }
+    for (int i=1; i<X->m-1; i++) {
+        for (int j=1; j<X->n-1; j++) {
+            matrix temp = slice(X, i-1, i+2, j-1, j+2);
+            matrix prod = matcreate(kernel->m, kernel->n);
+            int flag = multiply(prod, temp, kernel);
+            X->M[i][j] = sum(prod);
+        }
     }
 }
+
 
 

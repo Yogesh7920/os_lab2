@@ -142,140 +142,140 @@ lab2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
-helper.obj: helper.c.obj
+src/helper.obj: src/helper.c.obj
 
-.PHONY : helper.obj
-
-# target to build an object file
-helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/helper.c.obj
-.PHONY : helper.c.obj
-
-helper.i: helper.c.i
-
-.PHONY : helper.i
-
-# target to preprocess a source file
-helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/helper.c.i
-.PHONY : helper.c.i
-
-helper.s: helper.c.s
-
-.PHONY : helper.s
-
-# target to generate assembly for a file
-helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/helper.c.s
-.PHONY : helper.c.s
-
-image.obj: image.c.obj
-
-.PHONY : image.obj
+.PHONY : src/helper.obj
 
 # target to build an object file
-image.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/image.c.obj
-.PHONY : image.c.obj
+src/helper.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/helper.c.obj
+.PHONY : src/helper.c.obj
 
-image.i: image.c.i
+src/helper.i: src/helper.c.i
 
-.PHONY : image.i
+.PHONY : src/helper.i
 
 # target to preprocess a source file
-image.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/image.c.i
-.PHONY : image.c.i
+src/helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/helper.c.i
+.PHONY : src/helper.c.i
 
-image.s: image.c.s
+src/helper.s: src/helper.c.s
 
-.PHONY : image.s
+.PHONY : src/helper.s
 
 # target to generate assembly for a file
-image.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/image.c.s
-.PHONY : image.c.s
+src/helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/helper.c.s
+.PHONY : src/helper.c.s
 
-main.obj: main.c.obj
+src/image.obj: src/image.c.obj
 
-.PHONY : main.obj
+.PHONY : src/image.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.c.obj
-.PHONY : main.c.obj
+src/image.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/image.c.obj
+.PHONY : src/image.c.obj
 
-main.i: main.c.i
+src/image.i: src/image.c.i
 
-.PHONY : main.i
+.PHONY : src/image.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.c.i
-.PHONY : main.c.i
+src/image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/image.c.i
+.PHONY : src/image.c.i
 
-main.s: main.c.s
+src/image.s: src/image.c.s
 
-.PHONY : main.s
+.PHONY : src/image.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.c.s
-.PHONY : main.c.s
+src/image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/image.c.s
+.PHONY : src/image.c.s
 
-matrixmath.obj: matrixmath.c.obj
+src/main.obj: src/main.c.obj
 
-.PHONY : matrixmath.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-matrixmath.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/matrixmath.c.obj
-.PHONY : matrixmath.c.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-matrixmath.i: matrixmath.c.i
+src/main.i: src/main.c.i
 
-.PHONY : matrixmath.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-matrixmath.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/matrixmath.c.i
-.PHONY : matrixmath.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-matrixmath.s: matrixmath.c.s
+src/main.s: src/main.c.s
 
-.PHONY : matrixmath.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-matrixmath.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/matrixmath.c.s
-.PHONY : matrixmath.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-ppm.obj: ppm.c.obj
+src/matrixmath.obj: src/matrixmath.c.obj
 
-.PHONY : ppm.obj
+.PHONY : src/matrixmath.obj
 
 # target to build an object file
-ppm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/ppm.c.obj
-.PHONY : ppm.c.obj
+src/matrixmath.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/matrixmath.c.obj
+.PHONY : src/matrixmath.c.obj
 
-ppm.i: ppm.c.i
+src/matrixmath.i: src/matrixmath.c.i
 
-.PHONY : ppm.i
+.PHONY : src/matrixmath.i
 
 # target to preprocess a source file
-ppm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/ppm.c.i
-.PHONY : ppm.c.i
+src/matrixmath.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/matrixmath.c.i
+.PHONY : src/matrixmath.c.i
 
-ppm.s: ppm.c.s
+src/matrixmath.s: src/matrixmath.c.s
 
-.PHONY : ppm.s
+.PHONY : src/matrixmath.s
 
 # target to generate assembly for a file
-ppm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/ppm.c.s
-.PHONY : ppm.c.s
+src/matrixmath.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/matrixmath.c.s
+.PHONY : src/matrixmath.c.s
+
+src/ppm.obj: src/ppm.c.obj
+
+.PHONY : src/ppm.obj
+
+# target to build an object file
+src/ppm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/ppm.c.obj
+.PHONY : src/ppm.c.obj
+
+src/ppm.i: src/ppm.c.i
+
+.PHONY : src/ppm.i
+
+# target to preprocess a source file
+src/ppm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/ppm.c.i
+.PHONY : src/ppm.c.i
+
+src/ppm.s: src/ppm.c.s
+
+.PHONY : src/ppm.s
+
+# target to generate assembly for a file
+src/ppm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/src/ppm.c.s
+.PHONY : src/ppm.c.s
 
 # Help Target
 help:
@@ -286,21 +286,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab2
-	@echo ... helper.obj
-	@echo ... helper.i
-	@echo ... helper.s
-	@echo ... image.obj
-	@echo ... image.i
-	@echo ... image.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... matrixmath.obj
-	@echo ... matrixmath.i
-	@echo ... matrixmath.s
-	@echo ... ppm.obj
-	@echo ... ppm.i
-	@echo ... ppm.s
+	@echo ... src/helper.obj
+	@echo ... src/helper.i
+	@echo ... src/helper.s
+	@echo ... src/image.obj
+	@echo ... src/image.i
+	@echo ... src/image.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/matrixmath.obj
+	@echo ... src/matrixmath.i
+	@echo ... src/matrixmath.s
+	@echo ... src/ppm.obj
+	@echo ... src/ppm.i
+	@echo ... src/ppm.s
 .PHONY : help
 
 
