@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/raghu/CLionProjects/lab2/helper.h
+
+C:/Users/raghu/CLionProjects/lab2/image.h
+matrixmath.h
+C:/Users/raghu/CLionProjects/lab2/matrixmath.h
+ppm.h
+C:/Users/raghu/CLionProjects/lab2/ppm.h
+
+C:/Users/raghu/CLionProjects/lab2/main.c
+stdio.h
+-
+stdlib.h
+-
+matrixmath.h
+C:/Users/raghu/CLionProjects/lab2/matrixmath.h
+helper.h
+C:/Users/raghu/CLionProjects/lab2/helper.h
+image.h
+C:/Users/raghu/CLionProjects/lab2/image.h
+ppm.h
+C:/Users/raghu/CLionProjects/lab2/ppm.h
+
+C:/Users/raghu/CLionProjects/lab2/matrixmath.h
+
+C:/Users/raghu/CLionProjects/lab2/ppm.h
+
