@@ -4,7 +4,7 @@
 
 # include<stdio.h>
 # include<stdlib.h>
-# include"helper.h"
+# include"../include/helper.h"
 
 void print_exit(char *s) {
     printf("%s", s);

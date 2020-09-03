@@ -2,7 +2,7 @@
 
 # include<stdio.h>
 # include<stdlib.h>
-# include"ppm.h"
+# include"../include/ppm.h"
 
 #define CREATOR "Yogesh R"
 #define RGB_COMPONENT_COLOR 255

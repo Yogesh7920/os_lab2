@@ -1,8 +1,8 @@
 # include<stdio.h>
 # include<stdlib.h>
-# include"matrixmath.h"
-# include"image.h"
-# include"helper.h"
+# include"../include/matrixmath.h"
+# include"../include/image.h"
+# include"../include/helper.h"
 
 image imgcreate(int m, int n) {
     image temp = (image)malloc(sizeof(struct Image));
