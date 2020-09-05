@@ -8,7 +8,8 @@
 int main() {
     PPMImage *ppm = readPPM("C:\\Users\\raghu\\CLionProjects\\lab2\\test\\parrot.ppm");
     image img = PPMImage2Image(ppm);
-    imgblur(img);
+    matrix grey = bgr2grey(img);
+    ppmgrey(img, grey);
     PPMImage *finalppm = Image2PPMImage(img);
     writePPM("C:\\Users\\raghu\\CLionProjects\\lab2\\final.ppm", finalppm);
     return 0;

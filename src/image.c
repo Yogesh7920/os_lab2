@@ -109,3 +109,9 @@ void imgblur(image X) {
     blur(X->green);
     blur(X->blue);
 }
+
+void ppmgrey(image img, matrix grey) {
+    img->red = grey;
+    img->green = grey;
+    img->blue = grey;
+}
