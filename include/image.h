@@ -18,7 +18,8 @@ typedef struct Image
 image imgcreate(int m, int n);
 image PPMImage2Image(PPMImage *img);
 matrix bgr2grey(image img);
-matrix maxpool(matrix X);
+void blur(matrix X);
+void imgblur(image X);
 PPMImage *Image2PPMImage(image img);
 
 #endif //LAB2_IMAGE_H

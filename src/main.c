@@ -6,12 +6,9 @@
 # include"../include/ppm.h"
 
 int main() {
-    PPMImage *ppm = readPPM("C:\\Users\\raghu\\CLionProjects\\lab2\\test\\earth.ppm");
+    PPMImage *ppm = readPPM("C:\\Users\\raghu\\CLionProjects\\lab2\\test\\parrot.ppm");
     image img = PPMImage2Image(ppm);
-    matrix grey = bgr2grey(img);
-    img->blue = grey;
-    img->green = valassign(matcreate(grey->m, grey->n), 0);
-    img->red = valassign(matcreate(grey->m, grey->n), 0);
+    imgblur(img);
     PPMImage *finalppm = Image2PPMImage(img);
     writePPM("C:\\Users\\raghu\\CLionProjects\\lab2\\final.ppm", finalppm);
     return 0;

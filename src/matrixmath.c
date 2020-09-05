@@ -1,7 +1,6 @@
 # include<stdio.h>
 # include<stdlib.h>
 # include"../include/matrixmath.h"
-# include "../include/helper.h"
 
 matrix matcreate(int m, int n) {
     matrix temp = (matrix)malloc(sizeof(struct Matrix));
@@ -16,7 +15,7 @@ matrix matcreate(int m, int n) {
     return temp;
 }
 
-matrix valassign(matrix X, int v) {
+matrix valassign(matrix X, float v) {
     for (int i=0;i<X->m;i++) {
         for (int j=0; j<X->n; j++) {
             X->M[i][j] = (float)v;

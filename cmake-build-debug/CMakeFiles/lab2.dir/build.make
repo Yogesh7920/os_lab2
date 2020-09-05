@@ -76,87 +76,87 @@ include CMakeFiles/lab2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab2.dir/flags.make
 
-CMakeFiles/lab2.dir/main.c.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab2.dir/main.c.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\main.c.obj   -c C:\Users\raghu\CLionProjects\lab2\main.c
+CMakeFiles/lab2.dir/src/main.c.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/src/main.c.obj: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab2.dir/src/main.c.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\src\main.c.obj   -c C:\Users\raghu\CLionProjects\lab2\src\main.c
 
-CMakeFiles/lab2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/main.c.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\main.c > CMakeFiles\lab2.dir\main.c.i
+CMakeFiles/lab2.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/src/main.c.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\src\main.c > CMakeFiles\lab2.dir\src\main.c.i
 
-CMakeFiles/lab2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/main.c.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\main.c -o CMakeFiles\lab2.dir\main.c.s
+CMakeFiles/lab2.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/src/main.c.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\src\main.c -o CMakeFiles\lab2.dir\src\main.c.s
 
-CMakeFiles/lab2.dir/helper.c.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/helper.c.obj: ../helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab2.dir/helper.c.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\helper.c.obj   -c C:\Users\raghu\CLionProjects\lab2\helper.c
+CMakeFiles/lab2.dir/src/helper.c.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/src/helper.c.obj: ../src/helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab2.dir/src/helper.c.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\src\helper.c.obj   -c C:\Users\raghu\CLionProjects\lab2\src\helper.c
 
-CMakeFiles/lab2.dir/helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/helper.c.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\helper.c > CMakeFiles\lab2.dir\helper.c.i
+CMakeFiles/lab2.dir/src/helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/src/helper.c.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\src\helper.c > CMakeFiles\lab2.dir\src\helper.c.i
 
-CMakeFiles/lab2.dir/helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/helper.c.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\helper.c -o CMakeFiles\lab2.dir\helper.c.s
+CMakeFiles/lab2.dir/src/helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/src/helper.c.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\src\helper.c -o CMakeFiles\lab2.dir\src\helper.c.s
 
-CMakeFiles/lab2.dir/image.c.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/image.c.obj: ../image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab2.dir/image.c.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\image.c.obj   -c C:\Users\raghu\CLionProjects\lab2\image.c
+CMakeFiles/lab2.dir/src/image.c.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/src/image.c.obj: ../src/image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab2.dir/src/image.c.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\src\image.c.obj   -c C:\Users\raghu\CLionProjects\lab2\src\image.c
 
-CMakeFiles/lab2.dir/image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/image.c.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\image.c > CMakeFiles\lab2.dir\image.c.i
+CMakeFiles/lab2.dir/src/image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/src/image.c.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\src\image.c > CMakeFiles\lab2.dir\src\image.c.i
 
-CMakeFiles/lab2.dir/image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/image.c.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\image.c -o CMakeFiles\lab2.dir\image.c.s
+CMakeFiles/lab2.dir/src/image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/src/image.c.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\src\image.c -o CMakeFiles\lab2.dir\src\image.c.s
 
-CMakeFiles/lab2.dir/matrixmath.c.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/matrixmath.c.obj: ../matrixmath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab2.dir/matrixmath.c.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\matrixmath.c.obj   -c C:\Users\raghu\CLionProjects\lab2\matrixmath.c
+CMakeFiles/lab2.dir/src/matrixmath.c.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/src/matrixmath.c.obj: ../src/matrixmath.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab2.dir/src/matrixmath.c.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\src\matrixmath.c.obj   -c C:\Users\raghu\CLionProjects\lab2\src\matrixmath.c
 
-CMakeFiles/lab2.dir/matrixmath.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/matrixmath.c.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\matrixmath.c > CMakeFiles\lab2.dir\matrixmath.c.i
+CMakeFiles/lab2.dir/src/matrixmath.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/src/matrixmath.c.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\src\matrixmath.c > CMakeFiles\lab2.dir\src\matrixmath.c.i
 
-CMakeFiles/lab2.dir/matrixmath.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/matrixmath.c.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\matrixmath.c -o CMakeFiles\lab2.dir\matrixmath.c.s
+CMakeFiles/lab2.dir/src/matrixmath.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/src/matrixmath.c.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\src\matrixmath.c -o CMakeFiles\lab2.dir\src\matrixmath.c.s
 
-CMakeFiles/lab2.dir/ppm.c.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/ppm.c.obj: ../ppm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lab2.dir/ppm.c.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\ppm.c.obj   -c C:\Users\raghu\CLionProjects\lab2\ppm.c
+CMakeFiles/lab2.dir/src/ppm.c.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/src/ppm.c.obj: ../src/ppm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\raghu\CLionProjects\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lab2.dir/src/ppm.c.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab2.dir\src\ppm.c.obj   -c C:\Users\raghu\CLionProjects\lab2\src\ppm.c
 
-CMakeFiles/lab2.dir/ppm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/ppm.c.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\ppm.c > CMakeFiles\lab2.dir\ppm.c.i
+CMakeFiles/lab2.dir/src/ppm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab2.dir/src/ppm.c.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\raghu\CLionProjects\lab2\src\ppm.c > CMakeFiles\lab2.dir\src\ppm.c.i
 
-CMakeFiles/lab2.dir/ppm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/ppm.c.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\ppm.c -o CMakeFiles\lab2.dir\ppm.c.s
+CMakeFiles/lab2.dir/src/ppm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab2.dir/src/ppm.c.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\raghu\CLionProjects\lab2\src\ppm.c -o CMakeFiles\lab2.dir\src\ppm.c.s
 
 # Object files for target lab2
 lab2_OBJECTS = \
-"CMakeFiles/lab2.dir/main.c.obj" \
-"CMakeFiles/lab2.dir/helper.c.obj" \
-"CMakeFiles/lab2.dir/image.c.obj" \
-"CMakeFiles/lab2.dir/matrixmath.c.obj" \
-"CMakeFiles/lab2.dir/ppm.c.obj"
+"CMakeFiles/lab2.dir/src/main.c.obj" \
+"CMakeFiles/lab2.dir/src/helper.c.obj" \
+"CMakeFiles/lab2.dir/src/image.c.obj" \
+"CMakeFiles/lab2.dir/src/matrixmath.c.obj" \
+"CMakeFiles/lab2.dir/src/ppm.c.obj"
 
 # External object files for target lab2
 lab2_EXTERNAL_OBJECTS =
 
-lab2.exe: CMakeFiles/lab2.dir/main.c.obj
-lab2.exe: CMakeFiles/lab2.dir/helper.c.obj
-lab2.exe: CMakeFiles/lab2.dir/image.c.obj
-lab2.exe: CMakeFiles/lab2.dir/matrixmath.c.obj
-lab2.exe: CMakeFiles/lab2.dir/ppm.c.obj
+lab2.exe: CMakeFiles/lab2.dir/src/main.c.obj
+lab2.exe: CMakeFiles/lab2.dir/src/helper.c.obj
+lab2.exe: CMakeFiles/lab2.dir/src/image.c.obj
+lab2.exe: CMakeFiles/lab2.dir/src/matrixmath.c.obj
+lab2.exe: CMakeFiles/lab2.dir/src/ppm.c.obj
 lab2.exe: CMakeFiles/lab2.dir/build.make
 lab2.exe: CMakeFiles/lab2.dir/linklibs.rsp
 lab2.exe: CMakeFiles/lab2.dir/objects1.rsp

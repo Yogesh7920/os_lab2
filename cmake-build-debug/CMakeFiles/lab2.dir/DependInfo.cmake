@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/raghu/CLionProjects/lab2/helper.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/helper.c.obj"
-  "C:/Users/raghu/CLionProjects/lab2/image.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/image.c.obj"
-  "C:/Users/raghu/CLionProjects/lab2/main.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/main.c.obj"
-  "C:/Users/raghu/CLionProjects/lab2/matrixmath.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/matrixmath.c.obj"
-  "C:/Users/raghu/CLionProjects/lab2/ppm.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/ppm.c.obj"
+  "C:/Users/raghu/CLionProjects/lab2/src/helper.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/src/helper.c.obj"
+  "C:/Users/raghu/CLionProjects/lab2/src/image.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/src/image.c.obj"
+  "C:/Users/raghu/CLionProjects/lab2/src/main.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/src/main.c.obj"
+  "C:/Users/raghu/CLionProjects/lab2/src/matrixmath.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/src/matrixmath.c.obj"
+  "C:/Users/raghu/CLionProjects/lab2/src/ppm.c" "C:/Users/raghu/CLionProjects/lab2/cmake-build-debug/CMakeFiles/lab2.dir/src/ppm.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

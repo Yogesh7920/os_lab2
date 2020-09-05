@@ -11,7 +11,7 @@ typedef struct Matrix {
 }*matrix;
 
 matrix matcreate(int m, int n);
-matrix valassign(matrix X, int v);
+matrix valassign(matrix X, float v);
 int multiply(matrix P, matrix A, matrix B);
 void showmat(matrix X);
 float sum(matrix X);

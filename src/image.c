@@ -51,17 +51,50 @@ PPMImage *Image2PPMImage(image img) {
     return ppm;
 }
 
-matrix bgr2grey(image img) {
+void blur(matrix X) {
+    matrix kernel = matcreate(3, 3);
+    float arr[3][3] = {
+            {(float)1/16, (float)1/8, (float)1/16},
+            {(float)1/8, (float)1/4, (float)1/8},
+            {(float)1/16, (float)1/8, (float)1/16}
+    };
+    for (int i=0; i<3; i++) {
+        for (int j=0; j<3; j++) {
+            kernel->M[i][j] = arr[i][j];
+        }
+    }
+    X->m = X->m-2;
+    X->n = X->n-2;
+    for (int i=1; i<X->m-1; i++) {
+        for (int j=1; j<X->n-1; j++) {
+            matrix temp = slice(X, i-1, i+2, j-1, j+2);
+            matrix prod = matcreate(kernel->m, kernel->n);
+            multiply(prod, temp, kernel);
+            X->M[i][j] = sum(prod);
+        }
+    }
+}
+
+
+matrix bgr2grey(image img) { // T2
     matrix R = img->red;
     matrix B = img->blue;
     matrix G = img->green;
+    matrix kernel = matcreate(1, 3);
+    valassign(kernel, (float)1/3);
     if (R->n == G->n && G->n == B->n && R->m == G->m && G->m == B->m) {
         int n = R->n;
         int m = R->m;
         matrix ans = matcreate(m, n);
-        for (int i=0;i<n;i++) {
-            for (int j=0;j<m;j++) {
-                ans->M[i][j] = (R->M[i][j] + G->M[i][j] + B->M[i][j])/3;
+        for (int i=0;i<m;i++) {
+            for (int j=0;j<n;j++) {
+                matrix temp = matcreate(1, 3);
+                temp->M[0][0] = R->M[i][j];
+                temp->M[0][1] = B->M[i][j];
+                temp->M[0][2] = G->M[i][j];
+                matrix prod = matcreate(kernel->m, kernel->n);
+                multiply(prod, temp, kernel);
+                ans->M[i][j] = sum(prod);
             }
         }
         return ans;
@@ -71,27 +104,8 @@ matrix bgr2grey(image img) {
     }
 }
 
-void blur(matrix X) {
-    matrix kernel = matcreate(3, 3);
-    float arr[3][3] = {
-            {1,2,1},
-            {2,4,2},
-            {1,2,1}
-    };
-    for (int i=0; i<3; i++) {
-        for (int j=0; j<3; j++) {
-            kernel->M[i][j] = arr[i][j];
-        }
-    }
-    for (int i=1; i<X->m-1; i++) {
-        for (int j=1; j<X->n-1; j++) {
-            matrix temp = slice(X, i-1, i+2, j-1, j+2);
-            matrix prod = matcreate(kernel->m, kernel->n);
-            int flag = multiply(prod, temp, kernel);
-            X->M[i][j] = sum(prod);
-        }
-    }
+void imgblur(image X) {
+    blur(X->red);
+    blur(X->green);
+    blur(X->blue);
 }
-
-
-
