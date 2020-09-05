@@ -1,18 +1,27 @@
-# include<stdio.h>
-# include<stdlib.h>
-# include"../include/matrixmath.h"
-# include"../include/helper.h"
-# include"../include/image.h"
-# include"../include/ppm.h"
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+
+# include"matrixmath.h"
+# include"helper.h"
+# include"image.h"
+# include"ppm.h"
 
 int main(int argc, char *argv[]) {
     if (argc == 2 || argc == 3) {
-        PPMImage *ppm = readPPM(argv[1]);
+        PPMImage *ppm = readPPM("earth.ppm");
         image img = PPMImage2Image(ppm);
-        if (argv[3] != 'T2') {
-            imgblur(img);
+        if (argc == 3) {
+            if (!strcmp(argv[3], "T1")) {
+                imgblur(img);
+            }
+            else if (!strcmp(argv[3], "T2")) {
+                matrix grey = bgr2grey(img);
+                ppmgrey(img, grey);
+            }
         }
-        if (argv[3] != 'T1') {
+        else {
+            imgblur(img);
             matrix grey = bgr2grey(img);
             ppmgrey(img, grey);
         }

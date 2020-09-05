@@ -1,6 +1,3 @@
-//
-// Created by raghu on 9/3/2020.
-//
 
 #ifndef LAB2_MATRIXMATH_H
 #define LAB2_MATRIXMATH_H

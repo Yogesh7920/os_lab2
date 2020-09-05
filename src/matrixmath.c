@@ -1,6 +1,10 @@
 # include<stdio.h>
 # include<stdlib.h>
-# include"../include/matrixmath.h"
+
+# include"matrixmath.h"
+# include"helper.h"
+# include"image.h"
+# include"ppm.h"
 
 matrix matcreate(int m, int n) {
     matrix temp = (matrix)malloc(sizeof(struct Matrix));

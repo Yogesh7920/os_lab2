@@ -2,7 +2,11 @@
 
 # include<stdio.h>
 # include<stdlib.h>
-# include"../include/ppm.h"
+
+# include"matrixmath.h"
+# include"helper.h"
+# include"image.h"
+# include"ppm.h"
 
 #define CREATOR "Yogesh R"
 #define RGB_COMPONENT_COLOR 255
@@ -16,7 +20,7 @@ PPMImage *readPPM(const char *filename)
     //open PPM file for reading
     fp = fopen(filename, "rb");
     if (!fp) {
-        fprintf(stderr, "Unable to open file '%s'\n", filename);
+        fprintf(stderr, "Unable to open the file '%s'\n", filename);
         exit(1);
     }
 
