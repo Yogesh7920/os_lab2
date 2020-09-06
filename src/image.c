@@ -53,7 +53,7 @@ PPMImage *Image2PPMImage(image img) {
     return ppm;
 }
 
-void blur(matrix X) {
+void blur(matrix X) { // T1 - Gaussian Blur
     matrix kernel = matcreate(3, 3);
     float arr[3][3] = {
             {(float)1/16, (float)1/8, (float)1/16},
@@ -106,7 +106,7 @@ matrix bgr2grey(image img) { // T2
     }
 }
 
-void imgblur(image X) {
+void imgblur(image X) { // All channels blur
     blur(X->red);
     blur(X->green);
     blur(X->blue);
@@ -116,4 +116,10 @@ void ppmgrey(image img, matrix grey) {
     img->red = grey;
     img->green = grey;
     img->blue = grey;
+}
+
+void gausblur(image X, int n){
+    for (int i=0; i<n; i++) {
+        imgblur(X);
+    }
 }

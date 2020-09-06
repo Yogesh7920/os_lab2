@@ -40,14 +40,6 @@ int multiply(matrix P, matrix A, matrix B) {
         }
     }
 
-    // for (int i=0; i< A->m; i++) {
-    //     for (int j=0; j < B->n; j++) {
-    //         for (int k=0; k<A->n; k++) {
-    //             P->M[i][j] += A->M[i][k] * B->M[k][j];
-    //         }
-    //     }
-    // }
-
     return 0;
 }
 

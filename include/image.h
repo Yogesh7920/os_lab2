@@ -19,5 +19,6 @@ matrix bgr2grey(image img);
 void blur(matrix X);
 void imgblur(image X);
 void ppmgrey(image img, matrix grey);
+void gausblur(image X, int n);
 
 #endif //LAB2_IMAGE_H
