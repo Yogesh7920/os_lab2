@@ -14,7 +14,7 @@
    - If make clean is executed, it reset to the default input and output file.
   
  - Test Cases
-    - There are 10 test cases.
+    - There are 10 test cases. Some are HD images so running all test cases will take upto 20 seconds approx.
     - To view the original jpg image: https://drive.google.com/drive/folders/1aP9pWBSvuer_d5Pj4w0eB9do90q-yLUp?usp=sharing
     - If make tests/test([1-10]) is executed the results are test_results directory.
 
