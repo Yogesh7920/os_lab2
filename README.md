@@ -5,7 +5,7 @@
 
 ## Important Note
  - Transformations
-   - T1: Gaussian Blur with 3x3 kernel. This blur is applied 3 times. Note the output of mxn size image will become (m-6)x(n-6)
+   - T1: Gaussian Blur with 3x3 kernel. This blur is applied 3 (Blur Intensity) times. Note the output of mxn size image will become (m-6)x(n-6)
    - T2: BGR to Grey with kernel = [1/3, 1/3, 1/3].
    
  - Input and output
