@@ -12,6 +12,11 @@
    - by default the input file is "test/test1.ppm" and output file is "output.ppm".
    - The default behaviour can be changed by running make prepare.
    - If make clean is executed, it reset to the default input and output file.
+  
+ - Test Cases
+  - There are 10 test cases.
+  - To view the original jpg image: https://drive.google.com/drive/folders/1aP9pWBSvuer_d5Pj4w0eB9do90q-yLUp?usp=sharing
+  - If make tests/test([1-10]) is executed the results are test_results directory.
 
 ## Additional Features added
  - make buildso: An executable will be made with dynamically linked libraries.
