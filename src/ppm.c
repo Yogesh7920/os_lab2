@@ -94,7 +94,7 @@ void writePPM(const char *filename, PPMImage *img)
     //open file for output
     fp = fopen(filename, "wb");
     if (!fp) {
-        fprintf(stderr, "Unable to open file '%s'\n", filename);
+        fprintf(stderr, "Unable to open the file '%s'\n", filename);
         exit(1);
     }
 
