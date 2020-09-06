@@ -1,4 +1,4 @@
-# os_lab2 - Image Processing in C
+# OS_lab2 - Image Processing in C
 
 ## Requirements
   - imagemagick: for conversion of different format image to jpeg; taken care by make prepare.
