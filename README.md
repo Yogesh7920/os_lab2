@@ -20,6 +20,7 @@
 
 ## Additional Features added
  - make buildso: An executable will be made with dynamically linked libraries.
+ - Blur Intensity: The blur intensity is set to 3, it can be changed in main.c. Note: More intensity -> More time to run
  
 ## Basic Working
   - Kernel Convolution: It is the technique used in both the transformations.
