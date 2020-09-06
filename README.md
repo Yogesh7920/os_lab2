@@ -5,7 +5,7 @@
 
 ## Important Note
  - Transformations
-   - T1: Gaussian Blur with 3x3 kernel. Note the output of mxn size image will become m-2xn-2
+   - T1: Gaussian Blur with 3x3 kernel. This blur is applied 3 times. Note the output of mxn size image will become (m-6)x(n-6)
    - T2: BGR to Grey with kernel = [1/3, 1/3, 1/3].
    
  - Input and output
@@ -14,7 +14,7 @@
    - If make clean is executed, it reset to the default input and output file.
   
  - Test Cases
-    - There are 10 test cases. Some are HD images so running all test cases will take upto 20 seconds approx.
+    - There are 10 test cases. Some are HD images so running all test cases will take upto 14 seconds approx.
     - To view the original jpg image: https://drive.google.com/drive/folders/1aP9pWBSvuer_d5Pj4w0eB9do90q-yLUp?usp=sharing
     - If make tests/test([1-10]) is executed the results are test_results directory.
 
